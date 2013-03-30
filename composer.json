@@ -1,0 +1,27 @@
+{
+    "name": "dominikzogg/contao-twitter-bootstrap",
+    "type": "contao-module",
+    "description": "add some twitter bootstrap integration to contao",
+    "keywords": ["contao", "twitter", "bootstrap", "twitter bootstrap"],
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Dominik Zogg",
+            "email": "dominik.zogg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "contao": "2.11.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "extra": {
+        "contao": {
+            "symlinks": {
+                "src/system/modules/twitter_bootstrap": "system/modules/twitter_bootstrap"
+            }
+        }
+    }
+}
